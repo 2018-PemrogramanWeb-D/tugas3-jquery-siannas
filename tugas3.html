@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tugas3</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+		</script>
+		<script src="./manipulator.js"></script>
+		<style>
+			@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+			body{
+				font-family: 'Open Sans', sans-serif;
+				font-weight: 400;
+			}
+
+			table, td{
+				border-collapse: collapse;
+				border: 1px solid black;"
+			}
+			div.sample{
+				display: none;
+				background-color:#e6b3b3;
+				height:100px;
+				width: 200px;
+				font-size: 50px;
+				text-align: center;			
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<h2>1. Simple Animation</h2>
+			<div class="sample">HALO</div>
+			<button id="btn1">animate</button>	
+		</div>
+		<div>
+			<h2>2. Change Content</h2>
+			<div class="kabar">
+				<p>Hai Apakabar, Siapa Namamu?</p>
+				<form>
+					<input type="text" placeholder="isikan namamu">
+				</form>
+				<button id="btn2">change</button>	
+			</div>
+		</div>
+		<div>
+			<h2>3. Filter Content</h2>
+			<table>
+				<caption style="text-align: left;">ini tabel</caption>
+				<tr>
+					<td>tanggal</td>
+					<td>persentase</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>10%</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>50%</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>90%</td>
+				</tr>
+			</table>
+			<button id="btn3">Filter</button>	
+		</div>
+	</body>
+</html>
