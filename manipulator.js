@@ -18,6 +18,6 @@ $(function(){
 	});
 	
 	$("#btn3").click(function(){
-		
+		$(".content tr").filter(":odd").css({"font-weight":"bold","background-color":"#e6b3b3"});
 	});
 });
